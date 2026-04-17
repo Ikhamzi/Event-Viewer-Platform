@@ -2,7 +2,7 @@ import axiosInstance from '../api/axiosConfig';
 
 export const authService = {
   signup: async (email, password, name) => {
-    const response = await axiosInstance.post('/auth/signup', {
+    const response = await axiosInstance.post('/api/auth/signup', {
       email,
       password,
       name
@@ -11,7 +11,7 @@ export const authService = {
   },
 
   login: async (email, password) => {
-    const response = await axiosInstance.post('/auth/login', {
+    const response = await axiosInstance.post('/api/auth/login', {
       email,
       password
     });
@@ -19,7 +19,7 @@ export const authService = {
   },
 
   getMe: async () => {
-    const response = await axiosInstance.get('/auth/me');
+    const response = await axiosInstance.get('/api/auth/me');
     return response.data;
   },
 
