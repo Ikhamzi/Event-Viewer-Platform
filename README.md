@@ -8,15 +8,15 @@ Users can create, view, edit, delete, and RSVP to events—securely and in real 
 Live Demo Links
 
 Frontend
-https://mern-event-platform-react.onrender.com
+https://event-viewer-platform-mfd6.vercel.app/
 
 Backend
-https://mern-event-platform-qgpq.onrender.com
+https://event-viewer-platform.onrender.com/
 
 ---
 
 GitHub Repository
-(https://github.com/mhsanjunaid-dot/mern-event-platform)
+(https://github.com/Ikhamzi/Event-Viewer-Platform.git)
 
 ---
 📸 Screenshots
