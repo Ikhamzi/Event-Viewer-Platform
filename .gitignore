@@ -1,0 +1,1 @@
+# Dependencies\nnode_modules/\n**/node_modules/\n\n# Production builds\n**/dist/\n**/build/\n\n# Environment variables\n.env*\n\n# Logs\n*.log\n\n# Runtime data\npids\n*.pid\n*.seed\n*.pid.lock\n\n# Server uploads\nserver/uploads/\n\n# Vite cache\n**/.vite/\n\n# OS generated\n.DS_Store\nThumbs.db\n\n# Editor directories\n.vscode/\n.idea/\n\n# Misc\n*.swp\n*~\n
