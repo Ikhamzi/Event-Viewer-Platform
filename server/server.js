@@ -24,9 +24,10 @@ connectDB();
 
 app.use(cors({
   origin: [
-    "http://localhost:5173",
+"http://localhost:5173",
     "http://localhost:5174",
-    "https://event-viewer-platform.netlify.app"
+    "https://event-viewer-platform.netlify.app",
+    "https://event-viewer-platform-mfd6.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
